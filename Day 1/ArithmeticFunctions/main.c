@@ -2,23 +2,23 @@
 
 int main()  {
     int a, b, result;
-    char choice;
+    int choice;
 
     printf("Enter first number: ");
     scanf("%d", &a);
     printf("Enter second number: ");
     scanf("%d", &b);
 
-    printf("(A)ddition, (M)ultiplication, (S)ubtraction, (D)ivision ?");
-    scanf("%s", &choice);
+    printf("(1)Addition, (2)Multiplication, (3)Subtraction, (4)Division ?");
+    scanf("%d", &choice);
 
-    if(choice == "A" || choice == "a")  {
+    if(choice == 1)  {
         result = a + b;
-    } else if (choice == "M" || choice == "m")  {
+    } else if (choice == 2)  {
         result = a * b;
-    } else if (choice == "S" || choice == "s")  {
+    } else if (choice == 3)  {
         result = a - b;
-    } else if (choice == "D" || choice == "d") {
+    } else if (choice == 4) {
         result = a / b;
     }
 
