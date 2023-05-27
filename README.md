@@ -1,4 +1,4 @@
-# Slot B - C Programming
+# C Programs
 
 ## List of Programs
 
